@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-brand{
+  font-family: Pacifico, cursive;
+  font-size: 1.6em;
+}
+
+.nav-link{
+  font-weight: 500;
+}
+
+h1 {
+  font-family: Pacifico, cursive;
+}
+
+.jumbotron {
+  height: auto;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.jumbotron p {
+  font-weight: bold;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.corner-rounded {
+  border-radius: 10px;
+}
+
+.navbar-text {
+  font-weight: 600;
+  padding: .5rem;
+}
+
+.my-2{
+  margin-bottom: .6rem !important;
+}
+
+.btn-block{
+  border-radius: 20px;
+  padding: 10px 0px;
+}
+
+.btn-secondary {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 10px;
+}
