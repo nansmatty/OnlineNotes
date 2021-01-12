@@ -7,7 +7,7 @@ import MainScreen from './screen/MainScreen';
 import LoginScreen from './screen/LoginScreen';
 import NotesScreen from './screen/NotesScreen';
 import RegisterScreen from './screen/RegisterScreen';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 const App = () => {
   const userLogin = useSelector((state) => state.userLogin);
