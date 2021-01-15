@@ -68,7 +68,6 @@ export const createNotes = (note) => async (dispatch, getState) => {
       type: NOTE_CREATE_SUCCESS,
       payload: data,
     });
-    dispatch(listNotes());
   } catch (error) {
     const message =
       error.response && error.response.data.message
@@ -104,7 +103,6 @@ export const deleteNotes = (id) => async (dispatch, getState) => {
       type: NOTE_DELETE_SUCCESS,
       payload: data,
     });
-    dispatch(listNotes());
   } catch (error) {
     const message =
       error.response && error.response.data.message

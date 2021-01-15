@@ -43,7 +43,7 @@ const NoteCreate = () => {
               value={note}
               onChange={(e) => setNote(e.target.value)}></Form.Control>
           </Col>
-          <Col>
+          <Col xs md={3}>
             <Button
               type='submit'
               className='btn btn-block btn-secondary text-primary mt-2'

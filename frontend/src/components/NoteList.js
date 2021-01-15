@@ -1,9 +1,7 @@
 import React, { Fragment } from 'react';
-import { Alert, Button, Col, Row } from 'react-bootstrap';
-import { useDispatch, useSelector } from 'react-redux';
-import { deleteNotes } from '../actions/noteActions';
+import { Alert } from 'react-bootstrap';
 
-const NoteList = ({ note: { _id, note } }) => {
+const NoteList = ({ note: { note } }) => {
   return (
     <Fragment>
       <Alert

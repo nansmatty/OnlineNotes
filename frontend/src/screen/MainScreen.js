@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Jumbotron, Row, Col, Button } from 'react-bootstrap';
+import { useSelector } from 'react-redux';
 import { LinkContainer } from 'react-router-bootstrap';
+import { Redirect } from 'react-router-dom';
 
 const MainScreen = () => {
+  const userLogin = useSelector((state) => state.userLogin);
+  const { userInfo } = userLogin;
+
+  useEffect(() => {
+    if (userInfo) {
+      <Redirect to='/notes' />;
+    }
+  }, [userInfo]);
+
   return (
     <Jumbotron className='bg-primary' style={{ height: '70vh' }}>
       <Row className='justify-content-md-center'>
